@@ -9,7 +9,6 @@ class Solution {
         if (root == null) {
             return new int[] { 0, 0 };
         }
-
         // Recursively calculating the maximum amount that can be robbed from the left
         // subtree of the root
         int[] leftSubtree = heist(root.left);
