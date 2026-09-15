@@ -14,8 +14,6 @@ class Solution {
             }
             ll.add(rv.val);
         }
-        return ll;
-
-        
+        return ll;    
     }
 }
