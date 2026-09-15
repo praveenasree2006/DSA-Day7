@@ -1,5 +1,3 @@
-
-
 class Solution {
     public int rob(TreeNode root) {
         // Returns maximum value from the pair: [includeRoot, excludeRoot]
