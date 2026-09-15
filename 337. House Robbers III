@@ -4,7 +4,6 @@ class Solution {
         int[] result = heist(root);
         return Math.max(result[0], result[1]);
     }
-
     private int[] heist(TreeNode root) {
         // Empty tree case
         if (root == null) {
