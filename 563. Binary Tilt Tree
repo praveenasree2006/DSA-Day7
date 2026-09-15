@@ -1,6 +1,5 @@
 class Solution {
     int ans = 0;
-
     public int findTilt(TreeNode root) {
         helper(root);
         return ans;
