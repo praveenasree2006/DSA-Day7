@@ -12,8 +12,6 @@ class Solution {
         
         int[] leftSubtree = heist(root.left);
         int[] rightSubtree = heist(root.right);
-
-      
         int includeRoot = root.val + leftSubtree[1] + rightSubtree[1];
 
        
