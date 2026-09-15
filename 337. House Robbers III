@@ -14,7 +14,6 @@ class Solution {
         int[] rightSubtree = heist(root.right);
         int includeRoot = root.val + leftSubtree[1] + rightSubtree[1];
         int excludeRoot = Math.max(leftSubtree[0], leftSubtree[1]) + Math.max(rightSubtree[0], rightSubtree[1]);
-
         return new int[] { includeRoot, excludeRoot };
     }
 }
