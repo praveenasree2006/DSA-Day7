@@ -15,7 +15,7 @@ class Solution {
       
         ans += Math.abs(left - right);
 
-        // Step 3: Return total subtree sum (current node + left + right) to parent
+       
         return root.val + left + right;
     }
 }
