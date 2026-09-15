@@ -12,7 +12,7 @@ class Solution {
         int left = helper(root.left);
         int right = helper(root.right);
 
-        // Step 2: Accumulate absolute tilt difference for the current node ⚖️
+      
         ans += Math.abs(left - right);
 
         // Step 3: Return total subtree sum (current node + left + right) to parent
