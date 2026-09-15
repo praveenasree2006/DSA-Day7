@@ -5,7 +5,7 @@ class Solution {
         return ans;
     }
     public int helper(TreeNode root) {
-        // Base Case: Empty subtree sum is 0 🍃
+        
         if (root == null) return 0;
 
         // Step 1: Bottom-up evaluation of left and right subtree sums 📐
