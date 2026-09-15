@@ -14,8 +14,7 @@ class Solution {
       
         int[] rightSubtree = heist(root.right);
 
-        // includeRoot contains the maximum amount of money that can be robbed with the
-        // parent node included
+      
         int includeRoot = root.val + leftSubtree[1] + rightSubtree[1];
 
         // excludeRoot contains the maximum amount of money that can be robbed with the
