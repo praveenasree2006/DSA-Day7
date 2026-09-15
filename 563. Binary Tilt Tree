@@ -8,7 +8,7 @@ class Solution {
         
         if (root == null) return 0;
 
-        // Step 1: Bottom-up evaluation of left and right subtree sums 📐
+     
         int left = helper(root.left);
         int right = helper(root.right);
 
