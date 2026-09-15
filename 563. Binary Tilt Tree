@@ -10,8 +10,6 @@ class Solution {
         int left = helper(root.left);
         int right = helper(root.right);
         ans += Math.abs(left - right);
-
-       
         return root.val + left + right;
     }
 }
